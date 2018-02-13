@@ -1,0 +1,12 @@
+{
+  "presets": [
+    "./build/preset-env"
+  ],
+  "env": {
+    "es": {
+      "plugins": [
+        "./build/use-lodash-es"
+      ]
+    }
+  }
+}
